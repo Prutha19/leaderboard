@@ -1,0 +1,88 @@
+.podium-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.podium-wrapper {
+  display: flex;
+  align-items: flex-end; /* Align bottom of second and third */
+  gap: 30px;
+}
+
+.podium-rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+/* Elevate first place only */
+.podium-rank.first {
+  transform: translateY(-30px);
+}
+
+/* No shift on second and third so they are aligned */
+.podium-rank.second,
+.podium-rank.third {
+  transform: none;
+}
+
+.avatar-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.default-avatar {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon {
+  font-size: 24px;
+  color: #010000;
+}
+
+.name {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2px;
+  font-size: 0.85rem;
+}
+
+.score {
+  font-size: 0.85rem;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.position {
+  font-size: 0.8rem;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-weight: bold;
+  box-shadow: 0 0 6px rgba(79, 88, 220, 0.682);
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.4);
+}

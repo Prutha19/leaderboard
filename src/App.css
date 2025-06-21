@@ -1,0 +1,28 @@
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #1565C0, #0D47A1, #0A2472);
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  padding-bottom: 70px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.leaderboard-title {
+  color: #FFD700;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}

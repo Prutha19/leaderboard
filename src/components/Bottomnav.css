@@ -1,0 +1,52 @@
+.bottomnav-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background: linear-gradient(to right, #1565C0, #0D47A1, #0A2472);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.bottomnav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #a9c9ff;
+  font-size: 14px;
+  transition: transform 0.2s ease;
+}
+
+.bottomnav-item:hover {
+  transform: scale(1.1);
+  color: #dbbf0c;
+}
+
+.bottomnav-item svg {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.label {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+@media (max-width: 480px) {
+  .bottomnav-container {
+    height: 58px;
+  }
+
+  .bottomnav-item svg {
+    font-size: 18px;
+  }
+
+  .label {
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,41 @@
+.followers-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.follower-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e2f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rank-number {
+  font-weight: bold;
+  color: #fff;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.username {
+  color: #fff;
+  font-weight: 500;
+}
+
+.follower-count {
+  color: #ccc;
+}
