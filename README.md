@@ -1,4 +1,1 @@
 # leaderboard
-
-
-prutha aka mutkadi
