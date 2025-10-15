@@ -42,7 +42,6 @@ function App() {
           flexDirection: 'column',
           background: 'linear-gradient(to right, #1565C0, #0D47A1, #0A2472)',
           color: 'white'
-          // color: 'white'
         }}
       >
         <Navbar />
